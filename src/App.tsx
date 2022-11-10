@@ -2,6 +2,7 @@ import { Contents } from './components/Contents';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { MainLayout } from './components/MainLayout';
+import { Map } from './components/Map';
 import { Schedule } from './components/Schedule';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Contents />
       <Schedule />
+      <Map />
       <Footer />
     </MainLayout>
   );
