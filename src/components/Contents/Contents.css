@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  margin: 30px;
+  background: #287bff;
+  border-radius: 20px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  box-shadow: 0 15px 0 #fff, inset 0 -15px 0 rgba(255, 255, 255, 0.25),
+    0 45px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -140px;
+  left: -40%;
+  width: 100%;
+  height: 120%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 225, 0.2));
+  transform: rotate(35deg);
+  pointer-events: none;
+  filter: blur(5px);
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(to bottom, #ff2ae0, #645bf6);
+}
+
+.card:nth-child(2) {
+  background: linear-gradient(to bottom, #a9e2ba, #ee9cbb);
+}
+
+.card:nth-child(3) {
+  background: linear-gradient(to bottom, #ebe9a1, #8fdbee);
+}
+
+.icon {
+  position: relative;
+  width: 140px;
+  height: 120px;
+  background: #fff;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1), inset 0 -8px 0 #fff;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-right-radius: 50px;
+  box-shadow: 15px -15px 0 15px #fff;
+}
+
+.icon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-left-radius: 50px;
+  box-shadow: -15px -15px 0 15px #fff;
+}
+
+.icon i {
+  color: #3c2846;
+  position: relative;
+  font-size: 4em;
+  z-index: 10000;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  padding: 30px;
+  padding-top: 140px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 1.75em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #fff;
+  line-height: 1.5em;
+}

@@ -11,7 +11,7 @@ export const GlobalStyle = () => {
             box-sizing: border-box;
           }
           body {
-            background-color: #fff;
+            background: linear-gradient(to bottom, #fff, #55cdeb);
           }
           input {
             outline: none;
