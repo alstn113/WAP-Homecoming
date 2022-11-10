@@ -6,4 +6,5 @@ export const Root = styled.div`
   align-items: center;
   height: 500px;
   width: 100%;
+  margin-bottom: 50px;
 `;
