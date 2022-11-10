@@ -7,6 +7,6 @@ export const Root = styled.div`
   align-items: center;
   height: 100px;
   width: 100%;
-  background-color: #000;
+  background-color: rgb(33, 150, 243);
   color: #fff;
 `;

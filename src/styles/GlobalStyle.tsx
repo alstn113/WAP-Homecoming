@@ -11,7 +11,7 @@ export const GlobalStyle = () => {
             box-sizing: border-box;
           }
           body {
-            background-color: #333333;
+            background-color: #fff;
           }
           input {
             outline: none;
