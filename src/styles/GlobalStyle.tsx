@@ -13,20 +13,6 @@ export const GlobalStyle = () => {
           body {
             background: linear-gradient(to bottom, #fff, #1bbae2);
           }
-          input {
-            outline: none;
-            border: none;
-          }
-          button {
-            border: none;
-            outline: none;
-            background: none;
-            cursor: pointer;
-          }
-          a {
-            text-decoration: none;
-            color: #000;
-          }
         `}
       />
     </>
