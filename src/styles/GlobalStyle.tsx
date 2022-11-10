@@ -10,6 +10,9 @@ export const GlobalStyle = () => {
           * {
             box-sizing: border-box;
           }
+          body {
+            background-color: #adb5bd;
+          }
           input {
             outline: none;
             border: none;
