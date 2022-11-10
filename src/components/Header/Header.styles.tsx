@@ -5,7 +5,7 @@ export const Root = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 100px;
   width: 100%;
   background-color: #000;
   color: #fff;
