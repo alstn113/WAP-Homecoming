@@ -28,7 +28,7 @@
   top: -140px;
   left: -40%;
   width: 100%;
-  height: 120%;
+  height: 140%;
   background: linear-gradient(90deg, transparent, rgba(255, 255, 225, 0.2));
   transform: rotate(35deg);
   pointer-events: none;
@@ -95,12 +95,12 @@
 .content {
   position: absolute;
   width: 100%;
-  padding-top: 140px;
+  padding-top: 160px;
   text-align: center;
 }
 
 .content h2 {
-  font-size: 1.75em;
+  font-size: 2em;
   color: #fff;
   margin-bottom: 10px;
 }
