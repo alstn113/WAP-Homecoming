@@ -11,43 +11,33 @@ const Contents = () => {
       <div className="container">
         <div className="card">
           <div className="icon">
-            <i className="fas fa-rocket"></i>
+            <i className="fa-solid fa-chalkboard-user"></i>
           </div>
           <div className="content">
-            <h2>Card One</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-              quas voluptatum aliquid aspernatur! Laudantium ipsa eligendi
-              corrupti aliquam rerum optio provident iure fugit debitis,
-              mollitia ad, expedita dolore laboriosam tempore.
-            </p>
+            <h2>현직자 선배님들의 강연</h2>
+            <h2>포스티잇 QnA</h2>
           </div>
         </div>
         <div className="card">
           <div className="icon">
-            <i className="fas fa-gem"></i>
+            <i className="fa fa-gift"></i>
           </div>
           <div className="content">
-            <h2>Card Two</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-              quas voluptatum aliquid aspernatur! Laudantium ipsa eligendi
-              corrupti aliquam rerum optio provident iure fugit debitis,
-              mollitia ad, expedita dolore laboriosam tempore.
-            </p>
+            <h2>
+              <i className="fa fa-block-question"></i>
+            </h2>
+            <p>2022.11.19 토요일 공개</p>
           </div>
         </div>
         <div className="card">
           <div className="icon">
-            <i className="fas fa-globe"></i>
+            <i className="fa-solid fa-map-location-dot"></i>
           </div>
           <div className="content">
-            <h2>Card Three</h2>
+            <h2>장소 및 일시</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-              quas voluptatum aliquid aspernatur! Laudantium ipsa eligendi
-              corrupti aliquam rerum optio provident iure fugit debitis,
-              mollitia ad, expedita dolore laboriosam tempore.
+              <div>11/19 SAT</div>
+              <div>부경대학교 창의관 303호</div>
             </p>
           </div>
         </div>

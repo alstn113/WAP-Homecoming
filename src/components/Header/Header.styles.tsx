@@ -13,10 +13,17 @@ export const Root = styled.div`
   }
 `;
 
-export const Text = styled.h1`
+export const Title = styled.h1`
   @media screen and (max-width: 580px) {
     font-size: 40px;
   }
   font-size: 72px;
+  color: #fff;
+`;
+export const Description = styled.h1`
+  @media screen and (max-width: 580px) {
+    font-size: 30px;
+  }
+  font-size: 40px;
   color: #fff;
 `;

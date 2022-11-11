@@ -3,8 +3,8 @@ import * as S from './Header.styles';
 const Header = () => {
   return (
     <S.Root>
-      <S.Text>WAP</S.Text>
-      <S.Text>HOME COMING</S.Text>
+      <S.Title>WAP</S.Title>
+      <S.Description>HOME COMING</S.Description>
     </S.Root>
   );
 };
