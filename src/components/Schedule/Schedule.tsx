@@ -57,7 +57,7 @@ const Schedule = () => {
 
   return (
     <S.Root>
-      <VerticalTimeline lineColor="rgba(33, 150, 243, 0.5)">
+      <VerticalTimeline lineColor="rgba(33, 150, 243, 0.5)" animate={false}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
@@ -71,7 +71,10 @@ const Schedule = () => {
         >
           <h3 className="vertical-timeline-element-title">홈커밍 시작</h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
-          <p>홈커밍 행사에 대한 간단한 설명 2022년 WAP의 동아리 활동 보고</p>
+          <p>
+            <div>홈커밍 행사에 대한 간단한 설명</div>
+            <div>2022년 WAP의 동아리 활동 보고</div>
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
