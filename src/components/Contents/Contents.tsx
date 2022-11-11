@@ -17,6 +17,7 @@ const Contents = () => {
             <h2>컨텐츠</h2>
             <h3>선배님들의 강연</h3>
             <h3>포스트잇 QnA</h3>
+            <h3>선후배 교류 이벤트</h3>
           </div>
         </div>
         <div className="card">
@@ -37,6 +38,7 @@ const Contents = () => {
             <h2>장소 및 일시</h2>
             <h3>창의관 303호</h3>
             <h3>2022/11/19 토요일</h3>
+            <h3>13:00~17:30</h3>
           </div>
         </div>
       </div>

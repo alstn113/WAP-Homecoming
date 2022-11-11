@@ -93,7 +93,7 @@ const Schedule = () => {
             <div style={{ textAlign: 'right' }}>(13:30 ~ 14:00)</div>
             <div>2. 김한준 ’내가 스타트업에서 개발자로 일하는 이유’</div>
             <div style={{ textAlign: 'right' }}>(14:10 ~ 14:40)</div>
-            <div>3. 정상우 ‘게임얘기만 하던 놈 근황’</div>
+            <div>3. 정상우 ‘게임 얘기만 하던 놈 근황’</div>
             <div style={{ textAlign: 'right' }}>(14:50 ~ 15:20)</div>
           </p>
         </VerticalTimelineElement>
