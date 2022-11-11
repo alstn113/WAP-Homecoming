@@ -57,7 +57,7 @@ const Schedule = () => {
 
   return (
     <S.Root>
-      <VerticalTimeline lineColor="rgba(33, 150, 243, 0.5)" animate={false}>
+      <VerticalTimeline lineColor="rgba(33, 150, 243, 0.5)">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
