@@ -7,7 +7,9 @@ export const Root = styled.div`
   align-items: center;
   height: 150px;
   width: 100%;
-  background-color: rgb(33, 150, 243);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(to bottom, #5591ea, #8fdbee);
   @media screen and (max-width: 580px) {
     height: 100px;
   }

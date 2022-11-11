@@ -14,9 +14,9 @@ const Contents = () => {
             <i className="fa-solid fa-chalkboard-user"></i>
           </div>
           <div className="content">
-            <h2>선배님들의 강연</h2>
-            <h2>및</h2>
-            <h2>포스티잇 QnA</h2>
+            <h2>컨텐츠</h2>
+            <h3>선배님들의 강연</h3>
+            <h3>포스트잇 QnA</h3>
           </div>
         </div>
         <div className="card">
@@ -24,9 +24,9 @@ const Contents = () => {
             <i className="fa fa-gift"></i>
           </div>
           <div className="content">
-            <h2>? ? ?</h2>
-            <h2>2022/11/19 토요일</h2>
-            <h2>공개!</h2>
+            <h2>???</h2>
+            <h3>2022/11/19 토요일</h3>
+            <h3>공개!</h3>
           </div>
         </div>
         <div className="card">
@@ -35,8 +35,8 @@ const Contents = () => {
           </div>
           <div className="content">
             <h2>장소 및 일시</h2>
-            <h2>창의관 303호</h2>
-            <h2>2022/11/19 토요일</h2>
+            <h3>창의관 303호</h3>
+            <h3>2022/11/19 토요일</h3>
           </div>
         </div>
       </div>

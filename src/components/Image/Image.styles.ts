@@ -3,26 +3,23 @@ import styled from '@emotion/styled';
 export const Image1 = styled.img`
   position: absolute;
   top: 780px;
-  left: 220px;
+  left: 10vw;
   width: 350px;
   height: 350px;
   z-index: 10000;
-  @media screen and (max-width: 580px) {
-    top: 2450px;
-    left: 50%;
-    width: 150px;
-    height: 150px;
+  @media screen and (max-width: 1169px) {
+    display: none;
   }
 `;
 
 export const Image2 = styled.img`
   position: absolute;
   top: 1450px;
-  right: 200px;
+  right: 10vw;
   width: 350px;
   height: 350px;
   z-index: 10000;
-  @media screen and (max-width: 580px) {
-    visibility: hidden;
+  @media screen and (max-width: 1169px) {
+    display: none;
   }
 `;

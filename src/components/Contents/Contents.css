@@ -100,7 +100,13 @@
 }
 
 .content h2 {
-  font-size: 2em;
+  font-size: 2.4em;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.content h3 {
+  font-size: 1.2em;
   color: #fff;
   margin-bottom: 10px;
 }

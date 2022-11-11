@@ -10,9 +10,9 @@ const App = () => {
   return (
     <MainLayout>
       <Header />
-      <Image />
       <Contents />
       <Schedule />
+      <Image />
       <Map />
       <Footer />
     </MainLayout>
