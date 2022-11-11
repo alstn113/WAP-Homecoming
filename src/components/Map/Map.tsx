@@ -15,6 +15,8 @@ const Location = () => {
             height: '100%',
           }}
           level={4}
+          draggable={false}
+          zoomable={true}
         >
           <MapMarker position={{ lat: 35.13277, lng: 129.106902 }} />
         </KakaoMap>
