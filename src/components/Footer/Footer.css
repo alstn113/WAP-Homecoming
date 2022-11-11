@@ -19,6 +19,10 @@ footer p {
   padding: 20px 50px;
 }
 
+footer p div {
+  margin-bottom: 14px;
+}
+
 footer .wave {
   position: absolute;
   top: -100px;
