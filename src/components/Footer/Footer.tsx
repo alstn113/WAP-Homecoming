@@ -9,7 +9,10 @@ const Footer = () => {
         <div className="wave" id="wave3"></div>
         <div className="wave" id="wave4"></div>
       </div>
-      <p>©2022 neko113 | All Rights Reserved</p>
+      <p>
+        ©2022 <a href="https://github.com/neko113">neko113</a> | All Rights
+        Reserved
+      </p>
     </footer>
   );
 };

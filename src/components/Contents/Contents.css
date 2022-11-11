@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 .container {
   display: flex;
   justify-content: center;
@@ -39,15 +37,15 @@
 }
 
 .card:nth-child(1) {
-  background: linear-gradient(to bottom, #ff2ae0, #645bf6);
+  background: linear-gradient(to bottom, #5591ea, #8fdbee);
 }
 
 .card:nth-child(2) {
-  background: linear-gradient(to bottom, #a9e2ba, #ee9cbb);
+  background: linear-gradient(to bottom, #6a85e4, #ea7878);
 }
 
 .card:nth-child(3) {
-  background: linear-gradient(to bottom, #ebe9a1, #8fdbee);
+  background: linear-gradient(to bottom, #5591ea, #8fdbee);
 }
 
 .icon {
