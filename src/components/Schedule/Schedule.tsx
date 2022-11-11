@@ -4,6 +4,7 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import * as S from './Schedule.styles';
+import './Schedule.css';
 
 const Schedule = () => {
   const bag = (
@@ -64,52 +65,13 @@ const Schedule = () => {
             color: '#fff',
           }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
+          date="13:00 ~ 13:30"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={bag}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: 'linear-gradient(to bottom, #5591ea, #5bc3dd)',
-            color: '#fff',
-          }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={bag}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background: 'linear-gradient(to bottom, #5591ea, #5bc3dd)',
-            color: '#fff',
-          }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={bag}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
+          <h3 className="vertical-timeline-element-title">홈커밍 시작</h3>
+          <h4 className="vertical-timeline-element-subtitle"></h4>
+          <p>홈커밍 행사에 대한 간단한 설명 2022년 WAP의 동아리 활동 보고</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -118,15 +80,18 @@ const Schedule = () => {
             color: '#fff',
           }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(233, 33, 90)' }}
-          date="2011 - present"
+          date="13:30 ~ 15:30"
           iconStyle={{ background: 'rgb(233, 33, 90)', color: '#fff' }}
           icon={bachelorCap}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">홈커밍 특별 강연</h3>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            <div>1. 조정범 ‘게임 업계 취준하기’</div>
+            <div style={{ textAlign: 'right' }}>(13:30 ~ 14:00)</div>
+            <div>2. 김한준 ’내가 스타트업에서 개발자로 일하는 이유’</div>
+            <div style={{ textAlign: 'right' }}>(14:10 ~ 14:40)</div>
+            <div>3. 정상우 ‘게임얘기만 하던놈 근황’</div>
+            <div style={{ textAlign: 'right' }}>(14:50 ~ 15:20)</div>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -136,16 +101,47 @@ const Schedule = () => {
             color: '#fff',
           }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
+          date="15:30 ~ 16:30"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={bag}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">자유시간</h3>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            <div>
+              선배님들께 궁금한 것들을 포스트잇에 적어서 칠판에 붙여주세요!
+            </div>
+            <div>
+              보드게임, 간식 그리고 선후배 교류를 위한 이벤트를 준비했습니다!
+            </div>
           </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: 'linear-gradient(to bottom, #5591ea, #5bc3dd)',
+            color: '#fff',
+          }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="16:30 ~ 17:15"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={bag}
+        >
+          <h3 className="vertical-timeline-element-title">Q&A</h3>
+          <p>포스트잇 질문에 대한 답변 시간</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: 'linear-gradient(to bottom, #5591ea, #5bc3dd)',
+            color: '#fff',
+          }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="17:15 ~ 17:30"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={bag}
+        >
+          <h3 className="vertical-timeline-element-title">홈커밍 종료</h3>
+          <p>경품 추첨 및 기념사진 촬영</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
