@@ -5,9 +5,12 @@ export const Root = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 150px;
   width: 100%;
   background-color: rgb(33, 150, 243);
+  @media screen and (max-width: 580px) {
+    height: 100px;
+  }
 `;
 
 export const Text = styled.h1`
